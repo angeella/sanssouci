@@ -13,3 +13,4 @@ appveyor.yml
 ^localTests$
 ^docs$
 ^Rout$
+^_pkgdown\.yml$

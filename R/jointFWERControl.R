@@ -30,7 +30,7 @@
 #'     and m such that the k-th maximum of the test statistics of is
 #'     greater than \eqn{thr[k]}, is less than \eqn{\alpha}.}
 #'     \item{pivStat}{A numeric vector of length \code{m}, the values of the pivotal
-#'     statistic whose quantile of order \eqn{alpha} is \eqn{lambda}.}
+#'     statistic whose quantile of order \eqn{\alpha} is \eqn{\lambda}.}
 #'     \item{lambda}{JFWER threshold.}
 #'     \item{Vbar}{An upper bound on the number of false discoveries,
 #'     as calculated by \code{upperBoundFP(stat, thr)}.}

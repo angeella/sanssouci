@@ -1,0 +1,51 @@
+url: https://pneuvial.github.io/adjclust
+
+reference:
+  - title: "Main functions"
+    contents: 
+      - jointFWERControl
+      - posthocBySimes
+      - falseDiscoveryEnvelope
+      - falseDiscoveryProportionControl
+      - falseDiscoveryProportionEnvelope
+      - upperBoundFP
+      - testByRandomization
+  - title: "Simulation functions"
+    contents:
+      - simulateEqui
+      - simulateEquiByRandomization
+      - simulateToeplitz
+    exclude:
+      - BetaThresholdFamily
+      - bisort
+      - empiricalCoverage
+      - empiricalCoverageO
+      - getFactorModelCovarianceMatrix
+      - getSummaryStats
+      - k.max
+      - kFWERPivotalStatistic
+      - kFWERThresholdFamily
+      - marginalKFWER
+      - minPseudoRanks
+      - partialColSortDesc
+      - partialColSortDescCpp
+      - rowSortDesc
+      - rowWelchTests
+      - SimesPivotalStatistic
+      - SimesThresholdFamily
+      - simulateFactorModelNullsFromSingularValuesAndLoadings
+      - simulateGaussianEquiCorrelatedNulls
+      - simulateGaussianNullsFromFactorModel
+      - simulateGaussianNullsFromSigma
+      - simulateMein2006
+      - suffWelchTest
+      - thresholdFamily
+      - wilcoxStat
+
+authors:
+  Gilles Blanchard: 
+    href: http://www.math.uni-potsdam.de/~blanchard/
+  Pierre Neuvial:
+    href: https://www.math.univ-toulouse.fr/~pneuvial/
+  Etienne Roquain:
+    href: http://etienne.roquain.free.fr/
