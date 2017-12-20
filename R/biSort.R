@@ -19,7 +19,6 @@
 ##' as the attribute \code{'kmaxH0'} of \code{Q}.
 ##' @details The output matrix is sometimes referred to as "the Q
 ##' matrix", following the notation of Meinshausen (2006).
-##' @export
 ##' @examples
 ##'
 ##' m <- 1023
@@ -27,10 +26,10 @@
 ##'
 ##' flavor <- c("independent", "equi-correlated", "3-factor model")[2]
 ##' rho <- 0.2
-##' mat <- simulateGaussianNullsFromFactorModel(m, B, flavor=flavor, rho=rho)
+##' mat <- sansSouci::simulateGaussianNullsFromFactorModel(m, B, flavor=flavor, rho=rho)
 ##'
-##' Q <- bisort(mat, Rcpp=TRUE)
-##' QR <- bisort(mat, Rcpp=FALSE)
+##' Q <- sansSouci::bisort(mat, Rcpp=TRUE)
+##' QR <- sansSouci::bisort(mat, Rcpp=FALSE)
 ##' identical(Q,QR)
 ##'
 ##' kmaxH0 <- attr(Q, "kmaxH0")

@@ -22,12 +22,6 @@ H0.
 \description{
 Simes' threshold family
 }
-\examples{
-
-sk <- SimesThresholdFamily(12)
-thr <- sk(0.2)
-
-}
 \author{
 Gilles Blanchard, Pierre Neuvial and Etienne Roquain
 }

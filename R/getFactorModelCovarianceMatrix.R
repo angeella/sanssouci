@@ -9,7 +9,6 @@
 ##' @param rho \code{1-rho} is the standard deviation of the noise
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
 ##' @importFrom Matrix Matrix
-##' @export
 getFactorModelCovarianceMatrix <- function(
 ### calculate the covariance matrix of a factor model
                                            m,

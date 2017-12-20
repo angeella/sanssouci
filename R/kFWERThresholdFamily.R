@@ -22,7 +22,6 @@
 ##' \eqn{alpha}, \eqn{f(alpha)} is a candidate threshold family for controlling
 ##' the joint FWER.
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
-##' @export
 ##' @examples
 ##'
 ##' m <- 1023

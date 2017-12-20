@@ -7,7 +7,6 @@
 ##' @param k An integer vector of test statistics of length m
 ##' @return the k^th maximum of x
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
-##' @export
 ##' @examples
 ##'
 ##' x <- rnorm(100)

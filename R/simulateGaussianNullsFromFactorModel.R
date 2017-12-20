@@ -12,7 +12,6 @@
 ##' \code{cov} is set to TRUE, the covariance matrix of the model may be
 ##' accessed by \code{attr(Y, "Sigma")}.
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
-##' @export
 ##' @importFrom Matrix Matrix t
 ##' @examples
 ##'

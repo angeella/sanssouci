@@ -13,7 +13,6 @@
 ##' @details The inverse function of \eqn{s_k} is: \eqn{s_k^{-1}:u \mapsto
 ##'   (m/k)*(1-pnorm(u))}.
 ##'   
-##' @export
 ##' @importFrom matrixStats colMins
 ##'   
 SimesPivotalStatistic <- function(mat, kMax, m) {

@@ -11,7 +11,6 @@
 ##'   \item{stat}{A vector of \code{m} Wilcoxon sum rank test statistics of association between \code{X} and \code{y}.}
 ##'   \item{stat0Mat}{An \code{m} x \code{B} matrix of \code{B} realizations of a \code{m}-dimensional vector of test statistics under the null hypothesis of no association between \code{X} and \code{y}.}}
 ##' @importFrom matrixStats rowRanks
-##' @export
 wilcoxStat <- function(
     ### Fast calculation of Wilcoxon sum rank test statistic
     X,

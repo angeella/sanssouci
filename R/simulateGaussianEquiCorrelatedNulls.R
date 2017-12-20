@@ -11,7 +11,6 @@
 ##' @return A \code{m x n} matrix of simulated observations. The underlying
 ##' factor driving equi-correlation is given as \code{attr(Y, "w")}.
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
-##' @export
 ##' @examples
 ##'
 ##' m <- 1331
