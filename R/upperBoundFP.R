@@ -12,8 +12,6 @@
 ##' @return An upper bound on the number of false discoveries
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
 ##' @export
-
-
 upperBoundFP <- function(stat, thr, flavor=c("BNR2016", "Mein2006", "BNR2014")) {
     m <- length(stat)
     kMax <- length(thr)

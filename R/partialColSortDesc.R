@@ -11,7 +11,6 @@
 ##' @return a \code{k} x \code{B} numeric matrix, whose \code{b}-th
 ##' column corresponds to the \code{k} largest values of the
 ##' \code{b}-th column of \code{mat}, sorted decreasingly.
-##' @export
 ##' @examples
 ##'
 ##' A <- matrix(rnorm(15), 5, 3);

@@ -24,8 +24,6 @@
 #' @references B. L. Welch (1951), On the comparison of several mean values: an
 #'   alternative approach. Biometrika, *38*, 330-336
 #' 
-#' @export
-#' 
 #' @examples
 #' 
 #' p <- 1e3

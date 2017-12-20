@@ -11,7 +11,6 @@
 ##' vector of \code{k} factors}
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
 ##' @importFrom Matrix Matrix
-##' @export
 ##' @examples
 ##'
 ##' m <- 10

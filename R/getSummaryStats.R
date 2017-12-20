@@ -16,8 +16,6 @@
 #' 
 #' @author Pierre Neuvial
 #'   
-#' @export
-#'   
 #' @examples
 #' 
 #' mat <- matrix(rnorm(3051*38), ncol=38)

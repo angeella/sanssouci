@@ -11,13 +11,7 @@
 ##' \eqn{\alpha} if the test statistics are positively dependent (PRDS) under
 ##' H0.
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
-##' @export
 ##' @importFrom stats qnorm
-##' @examples
-##'
-##' sk <- SimesThresholdFamily(12)
-##' thr <- sk(0.2)
-##'
 SimesThresholdFamily <- function(m, kMax=m){
     sk <- function(alpha) qnorm(1-min(alpha, 1)*(1:kMax)/m)
     return(sk)

@@ -11,7 +11,6 @@
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
 ##' @importFrom Matrix Matrix isSymmetric
 ##' @importFrom stats rnorm
-##' @export
 ##' @examples
 ##'
 ##' library("Matrix")

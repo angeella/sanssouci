@@ -14,7 +14,6 @@
 #' }
 #' @author Pierre Neuvial
 #' 
-#' @export
 #' @importFrom stats pt
 #' @examples
 #' 

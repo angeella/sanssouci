@@ -18,7 +18,6 @@
 ##' hypothesis: 0 for true null hypothesis, and 1 for true alternative
 ##' hypothesis} }
 ##' @author Gilles Blanchard, Pierre Neuvial and Etienne Roquain
-##' @export
 ##' @importFrom stats rbinom
 ##' @examples
 ##'

@@ -40,10 +40,10 @@ B <- 1e3
 
 flavor <- c("independent", "equi-correlated", "3-factor model")[2]
 rho <- 0.2
-mat <- simulateGaussianNullsFromFactorModel(m, B, flavor=flavor, rho=rho)
+mat <- sansSouci::simulateGaussianNullsFromFactorModel(m, B, flavor=flavor, rho=rho)
 
-Q <- bisort(mat, Rcpp=TRUE)
-QR <- bisort(mat, Rcpp=FALSE)
+Q <- sansSouci::bisort(mat, Rcpp=TRUE)
+QR <- sansSouci::bisort(mat, Rcpp=FALSE)
 identical(Q,QR)
 
 kmaxH0 <- attr(Q, "kmaxH0")
